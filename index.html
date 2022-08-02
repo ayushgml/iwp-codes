@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="image.png">
+    <center>
+        <div>
+            <font color="white" face="Verdana, Geneva, sans-serif">
+                <h1>Dream Vacation Planner</h1>
+                <h3>Your dream Vacation Planner</h3>
+            </font>
+        </div>
+        <div width="200">
+            <font color="white" face="Verdana, Geneva, sans-serif">
+                <p>
+                    Our name says it all, "Dream Vacation Planner" because your dream vacation begins from the moment you start planning. And what better way to begin than with a team of professionals who have most likely been there, done that, and definitely know how to get you the best experience for your budget. In fact, we promise, "No one can beat our value!"
+                </p>
+            
+            </font>
+        </div>
+        <img src="balloon.png" alt="Beach Image" width="1500">
+        <div>
+            <font color="white" face="Verdana, Geneva, sans-serif" size="+1">
+                <h4>Kindly fill up the form below to take the next step to go to your dream vacation!</h3><br><br>
+            <form action="https://github.com/ayushgml" method="get">
+                <fieldset>
+                    <legend>Personal details:</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="eg: Ayush" required><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="eg: Gupta" required><br><br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="html">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="css">Female</label>
+                    <input type="radio" id="others" name="gender" value="others">
+                    <label for="html">Others</label><br><br>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" id="dob" required><br><br>
+                    <label for="phone">Phone no:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="eg: 1234567890" pattern="[0-9]{10}" required><br><br>
+                    <label for="mail">Email ID:</label>
+                    <input type="email" name="mail" id="mail" placeholder="eg: xyz@gmail.com" required><br><br>
+                    <label for="picture">Upload your picture: </label>
+                    <input type="file" id="picture" name="picture" capture="user" accept="image/*">
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend align="left">Travel Information:</legend>
+                    <label for="budget"><b>Tell us your budget:</b></label><br>
+                    <input type="radio" id="50k" name="budget" value="50k">
+                    <label for="50k">Under 50,000</label><br>
+                    <input type="radio" id="1L" name="budget" value="1L">
+                    <label for="1L">50,000 - 1,00,000</label><br>
+                    <input type="radio" id="1L+" name="budget" value="1L+">
+                    <label for="1L+">1,00,000+</label><br><br>
+                    <label for="destination">Select your dream destination: </label>
+                    <select name="destination" id="destination" required>
+                        <option value="select" disabled selected>Select your option</option>
+                        <option value="usa">United States of America</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="france">France</option>
+                        <option value="spain">Spain</option>
+                        <option value="germany">Germany</option>
+                        <option value="hawaii">Hawaii</option>
+                        <option value="maldives">Maldives</option>
+                        <option value="mauritius">Mauritius</option>
+                        <option value="dubai">Dubai</option>
+                    </select><br><br>
+                    <label for="company">Choose your travel companion(s) from the list:</label>
+                    <input list="companies" name="company" id="company" required>
+                    <datalist id="companies">
+                        <option value="Family">
+                        <option value="Friends">
+                        <option value="Partner">
+                        <option value="Solo">
+                        <option value="No idea yet">
+                    </datalist><br><br>
+                    <label for="monthOfVisit">Select the probable month of your visit: </label>
+                    <input type="month" name="monthOfVisit" id="monthOfVisit"><br><br>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            <hr>
+        </font>
+        <font color="white">
+            <h2>Contact us:</h2>
+            <h4><a href="mailto:ayush.gupta2020c@vitstudent.ac.in">Send email</a></h4>
+            <p>Ayush Gupta</p>
+            <p>20BCB0126</p>
+            <p>Vellore Institute of Technology, Vellore, Tamil Nadu, India - 632014</p>
+        </font>
+        </div>
+        <br>
+    </center>
+    
+</body>
+</html>
